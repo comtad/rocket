@@ -4,7 +4,7 @@ namespace App\Http\Filters\LikeFilters;
 
 use Illuminate\Database\Eloquent\Builder;
 
-class ChandelierFilter extends AbstractFilter implements FilterInterface
+class ChandelierFilter extends AbstractFilter
 {
     private array $params = [];
     const COLOR = 'color';
